@@ -1,8 +1,4 @@
 const Discord = require('discord.js');
-
-const TOKEN = 
-     ;
-
 var bot = new Discord.Client();
 
 bot.on("ready", function() {
