@@ -23,7 +23,16 @@ bot.on("message", function(message) {
      if (message.content == "server status"){
          message.channel.send("Masih Tahap Pengembangan");
          
+         return;
+         
      }
+    
+     if (message.content == "Testing"){
+         message.channel.send ("/rep @! ! R4ku");
+         
+     }
+         
+   
     
 
 });
