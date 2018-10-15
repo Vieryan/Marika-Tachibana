@@ -29,9 +29,13 @@ bot.on("message", function(message) {
     
      if (message.content == "Testing"){
          message.channel.send ("/rep @! ! R4ku");
+         return;
          
      }
-         
+      
+      if (message.content == "End"){
+        message.channel.send("wawadwadwadwad");
+    }
    
     
 
