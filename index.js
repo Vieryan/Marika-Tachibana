@@ -8,7 +8,7 @@ bot.on("ready", function() {
 bot.on("message", function(message) {
     if (message.author.equals(bot.user)) return;
     
-     bot.user.setGame('https://discord.gg/MyqHadv');
+     bot.user.setGame('https://discord.gg/6kVDedM');
 
     bot.user.setStatus('Online');
 
