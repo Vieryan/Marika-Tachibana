@@ -31,6 +31,12 @@ bot.on("message", function(message) {
          return;
          
      }
+    if (message.content == "Link Discord"){
+        message.channel.send("https://discord.gg/6kVDedM");
+        
+        return;
+        
+    }
     
      if (message.content == "Testing"){
          message.channel.send ("/rep @! ! R4ku");
