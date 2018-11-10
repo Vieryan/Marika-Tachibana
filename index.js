@@ -47,6 +47,19 @@ bot.on("message", function(message) {
       if (message.content == "End"){
         message.channel.send("wawadwadwadwad");
     }
+     
+    let prefix = "/"
+  let command = message.content.split(" ")[0];
+  command = command.slice(prefix.length);
+ 
+   let args = message.content.split(" ").slice(1);
+ 
+ 
+ if (command === "say") {
+    //if (!message.guild.member(bot.user).hasPermission('MANAGE_ROLES_OR_PERMISSIONS'))
+    //if (message.author.id !== "130515926117253122") return;
+    message.channel.send(args.join(" "));
+  } 
    
     
 
